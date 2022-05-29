@@ -70,7 +70,7 @@
 
 body{
     background : url("sources/bg.png") no-repeat fixed center/cover ;
-    height: 500vh;
+    height: 900vh;
 
 }
 
@@ -141,9 +141,7 @@ p {
 .cadre-presentation{
     position: relative;
     display: inline-flex;
-
     text-align: left;
-
     width: 100%;
 }
 .cadre-presentation span{
@@ -157,4 +155,27 @@ p {
     display: flex;
     align-self: center;
     margin-left: auto;
+}
+
+.structure .cadre-grand p {
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+.structure .cadre-grand p {
+    font-family: Calibri;
+    font-size: 22px;
+    font-style: italic;
+    text-indent: 30px;
+}
+
+.structure .cadre-grand .cadre-presentation span p {
+    font-family: Calibri;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.structure .cadre-grand .cadre-presentation span h3 {
+   text-decoration: underline;
+
 }
