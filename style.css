@@ -1,0 +1,133 @@
+
+/* debut barre de navigation*/
+#liste_navigation{
+    list-style: none;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+#cadre_navigation{
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    z-index: 99;
+    position: relative;
+    background: rgb(6,134,208);
+    background: radial-gradient(circle, rgba(6,134,208,1) 56%, rgba(8,155,226,1) 100%);
+    border-radius: 5px;
+
+}
+
+#cadre_navigation li{
+    height: auto;
+    width: 150px;
+    float: left;
+    text-align: center;
+    list-style: none;
+    font: normal bold 14px/1em Arial, Verdana, Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border-radius: 5px;
+}
+#cadre_navigation a{
+    padding: 18px 0;
+
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+#cadre_navigation li ul{
+    display: none;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+#cadre_navigation li:hover ul{
+    display: block;
+}
+
+#cadre_navigation li ul li {
+    background: radial-gradient(circle, rgba(6,134,208,1) 56%, rgba(8,155,226,1) 100%);
+    border-radius: 5px;
+}
+
+#language {
+    float: right;
+}
+
+#cadre_navigation li ul li a:hover {
+    background-color: #a3a1a1;
+    border-radius: 5px;
+}
+#cadre_navigation .elements_li a:hover {
+    background-color: #a3a1a1;
+    border-radius: 5px;
+}
+/*Fin barre de navigation*/
+
+body{
+    background : url("sources/bg.png") no-repeat fixed center/cover ;
+    height: 300vh;
+
+}
+
+/* partie image a revoir*/
+#image-presentation{
+    width: 300px;
+    height: 300px;
+}
+/* partie image centrale*/
+img {
+    width: 80%;
+    height: 200px;
+    margin: 2% 10% 2% 10%;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+/* fin partie image centrale*/
+
+p {
+    color: white;
+}
+
+#texte-presentation{
+
+}
+
+.structure{
+    width: 80%;
+    margin: 2% 10% 5% 10%;
+
+}
+
+#texte-presentation{
+    border: 1px solid ;
+    padding: 2%;
+    background-color: #a3a1a1;
+    border-radius: 5px;
+}
+#texte-introduction{
+    border: 3px solid ;
+    background: rgb(6,134,208);
+    background: radial-gradient(circle, rgba(6,134,208,1) 56%, rgba(8,155,226,1) 100%);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#intro-interview{
+    border: 3px solid ;
+    background: rgb(6,134,208);
+    background: radial-gradient(circle, rgba(6,134,208,1) 56%, rgba(8,155,226,1) 100%);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#cadre-interview1{
+    border: 1px solid ;
+    padding: 2%;
+    background-color: #a3a1a1;
+    border-radius: 5px;
+}
