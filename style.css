@@ -70,7 +70,7 @@
 
 body{
     background : url("sources/bg.png") no-repeat fixed center/cover ;
-    height: 300vh;
+    height: 500vh;
 
 }
 
@@ -80,7 +80,7 @@ body{
     height: 300px;
 }
 /* partie image centrale*/
-img {
+#grande-image {
     width: 80%;
     height: 200px;
     margin: 2% 10% 2% 10%;
@@ -117,7 +117,7 @@ p {
     padding-left: 10px;
 }
 
-#intro-interview{
+.cadre-petit{
     border: 3px solid ;
     background: rgb(6,134,208);
     background: radial-gradient(circle, rgba(6,134,208,1) 56%, rgba(8,155,226,1) 100%);
@@ -125,9 +125,26 @@ p {
     padding-left: 10px;
 }
 
-#cadre-interview1{
+.cadre-grand{
     border: 1px solid ;
     padding: 2%;
     background-color: #a3a1a1;
     border-radius: 5px;
+}
+
+.petite-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.cadre-presentation{
+    position: relative;
+    display: inline-flex;
+
+    text-align: left;
+    align-content: space-evenly;
+}
+.cadre-presentation span{
+    margin-right: 25px;
 }
