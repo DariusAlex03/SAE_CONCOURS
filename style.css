@@ -143,8 +143,18 @@ p {
     display: inline-flex;
 
     text-align: left;
-    align-content: space-evenly;
+
+    width: 100%;
 }
 .cadre-presentation span{
     margin-right: 25px;
+}
+.logo-uspn{
+    width: 200px;
+    height: 100px;
+}
+.cadre-presentation .c-logo-uspn {
+    display: flex;
+    align-self: center;
+    margin-left: auto;
 }
